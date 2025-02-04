@@ -60,6 +60,10 @@
 .fa-li.fa-lg {
   left: -1.8571428571428572em;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 .fa-border {
   padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;

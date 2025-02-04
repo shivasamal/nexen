@@ -18,6 +18,40 @@
 	<!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<style>
+		/* Custom styles for dropdown items */
+
+		.dropdown-menu {
+			min-width: 280px;
+			/* Adjust as needed */
+		}
+
+		.dropdown-item {
+			transition: background-color 0.3s ease, border 0.3s ease;
+			border: 1px solid transparent;
+			/* Initially no border */
+			padding: 12px 20px;
+			/* Increase padding for better spacing */
+			font-size: 16px;
+			/* Optional: Adjust text size */
+		}
+
+		/* Hover effect */
+		.dropdown-item:hover {
+			background-color: red !important;
+			color: white !important;
+			border: 1px solid darkred !important;
+		}
+
+		/* Active (click) effect */
+		.dropdown-item:active,
+		.dropdown-item:focus {
+			background-color: darkred !important;
+			color: white !important;
+			border: 1px solid black !important;
+		}
+	</style>
+
 
 </head>
 
@@ -35,7 +69,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button> -->
-						<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/Rahul PNG.png" alt="logo" style="height: 185px;
+							width: 290px;
+							margin-top: -80px;"></a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
@@ -91,16 +127,15 @@
 						<div class="col-md-12">
 							<div class="about-logo">
 								<h3>We are awesome <span class="color">TEAM</span></h3>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-									doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-									veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-									voluptatem quia voluptas</p>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-									doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-									veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-									voluptatem quia voluptas</p>
+								<p>At NEXEN, we are committed to simplifying taxation and financial planning for
+									individuals and businesses. With years of experience in the industry, our team of
+									expert tax professionals, accountants, and financial advisors work diligently to
+									provide accurate, efficient, and strategic tax solutions tailored to your needs.</p>
+								<p>We specialize in tax preparation, tax planning, business tax consulting, compliance,
+									and financial advisory services, ensuring that you maximize deductions, minimize
+									liabilities, and stay fully compliant with the latest tax regulations.</p>
 							</div>
-							<a href="#" class="btn btn-color">Read more</a>
+							<!-- <a href="#" class="btn btn-color">Read more</a> -->
 						</div>
 					</div>
 
@@ -111,17 +146,24 @@
 						<div class="col-md-4">
 							<!-- Heading and para -->
 							<div class="block-heading-two">
-								<h3><span>Why Choose Us?</span></h3>
+								<h3><span>Our Values?</span></h3>
+								<p><b>Integrity:</b> We operate with transparency, honesty, and ethics in all our
+									interactions.
+								</p>
+								<p><b>Expertise:</b> We stay up-to-date with the latest tax laws, regulations, and
+									technologies to provide accurate and effective solutions.
+								</p>
+								<p><b>Personalized Service:</b> We take the time to understand each client's unique
+									situation and provide tailored guidance and support.
+								</p>
+								<p><b>Community::</b> We are committed to giving back to our community through volunteer
+									work, educational programs, and charitable donations.
+								</p>
 							</div>
-							<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque
-								laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-								architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-								sit aspernatur. <br /><br />Sed ut perspiciaatis iste natus error sit voluptatem
-								probably haven't heard of them accusamus.</p>
 						</div>
 						<div class="col-md-4">
 							<div class="block-heading-two">
-								<h3><span>Our Solution</span></h3>
+								<h3><span>Why Choose Us?</span></h3>
 							</div>
 							<!-- Accordion starts -->
 							<div class="panel-group" id="accordion-alt3">
@@ -132,17 +174,20 @@
 										<h4 class="panel-title">
 											<a data-toggle="collapse" data-parent="#accordion-alt3"
 												href="#collapseOne-alt3">
-												<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 1
+												<i class="fa fa-angle-right"></i> Expert Guidance
 											</a>
 										</h4>
 									</div>
 									<div id="collapseOne-alt3" class="panel-collapse collapse">
 										<!-- Panel body -->
 										<div class="panel-body">
-											Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-											veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-											ipsam voluptatem quia voluptas
+											Our team consists of highly qualified tax professionals, accountants, and
+											financial advisors who stay up-to-date with the latest changes in tax laws,
+											industry trends, and financial regulations. We continuously educate
+											ourselves to ensure that our clients receive accurate advice and benefit
+											from new opportunities in tax planning and compliance. Whether it's tax
+											reforms, deductions, or credits, we provide proactive guidance to help you
+											make informed financial decisions.
 										</div>
 									</div>
 								</div>
@@ -151,16 +196,19 @@
 										<h4 class="panel-title">
 											<a data-toggle="collapse" data-parent="#accordion-alt3"
 												href="#collapseTwo-alt3">
-												<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
+												<i class="fa fa-angle-right"></i> Personalized Solutions
 											</a>
 										</h4>
 									</div>
 									<div id="collapseTwo-alt3" class="panel-collapse collapse">
 										<div class="panel-body">
-											Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-											veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-											ipsam voluptatem quia voluptas
+											We understand that every individual and business has unique financial
+											circumstances and tax obligations. That’s why we take a tailored approach to
+											tax planning and preparation. By analyzing your income, investments,
+											expenses, and financial goals, we develop customized tax strategies to
+											minimize your liabilities and maximize your savings. Our personalized
+											solutions ensure that you get the most out of your tax filings without
+											unnecessary stress.
 										</div>
 									</div>
 								</div>
@@ -169,16 +217,18 @@
 										<h4 class="panel-title">
 											<a data-toggle="collapse" data-parent="#accordion-alt3"
 												href="#collapseThree-alt3">
-												<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 3
+												<i class="fa fa-angle-right"></i> Accuracy & Compliance
 											</a>
 										</h4>
 									</div>
 									<div id="collapseThree-alt3" class="panel-collapse collapse">
 										<div class="panel-body">
-											Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-											veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-											ipsam voluptatem quia voluptas
+											Precision is at the core of what we do. Our team follows a meticulous
+											process to ensure that every detail of your tax return is accurate and fully
+											compliant with local, state, and federal tax laws. We conduct thorough
+											checks, apply the latest tax codes, and leverage advanced tax software to
+											eliminate errors and avoid penalties. Our commitment to compliance
+											safeguards you from legal risks while optimizing your financial outcomes.
 										</div>
 									</div>
 								</div>
@@ -187,16 +237,16 @@
 										<h4 class="panel-title">
 											<a data-toggle="collapse" data-parent="#accordion-alt3"
 												href="#collapseFour-alt3">
-												<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 4
+												<i class="fa fa-angle-right"></i> Client-Centered Approach
 											</a>
 										</h4>
 									</div>
 									<div id="collapseFour-alt3" class="panel-collapse collapse">
 										<div class="panel-body">
-											Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-											veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-											ipsam voluptatem quia voluptas
+											At NEXEN, we prioritize building long-term relationships based
+											on trust, transparency, and client satisfaction. We take the time to
+											understand your needs, answer your questions, and provide expert guidance
+											tailored to your situation.
 										</div>
 									</div>
 								</div>
@@ -209,15 +259,15 @@
 							<div class="block-heading-two">
 								<h3><span>Our Expertise</span></h3>
 							</div>
-							<h6>Web Development</h6>
+							<h6>Tax Filing</h6>
 							<div class="progress pb-sm">
 								<!-- White color (progress-bar-white) -->
 								<div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40"
-									aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+									aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 									<span class="sr-only">40% Complete (success)</span>
 								</div>
 							</div>
-							<h6>Designing</h6>
+							<h6>Consulting</h6>
 							<div class="progress pb-sm">
 								<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60"
 									aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -227,14 +277,15 @@
 							<h6>User Experience</h6>
 							<div class="progress pb-sm">
 								<div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="80"
-									aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									aria-valuemin="0" aria-valuemax="100" style="width: 85%">
 									<span class="sr-only">40% Complete (success)</span>
 								</div>
 							</div>
-							<h6>Development</h6>
+							<h6>Accounting & Financial Advisory
+							</h6>
 							<div class="progress pb-sm">
 								<div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="30"
-									aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+									aria-valuemin="0" aria-valuemax="100" style="width: 79%">
 									<span class="sr-only">40% Complete (success)</span>
 								</div>
 							</div>
@@ -312,7 +363,9 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="widget">
-							<a class="widgetheading" href="index.html"><img src="img/logo.png" alt="logo" /></a>
+							<a class="navbar-brand" href="index.html"><img src="img/Rahul PNG.png" alt="logo" style="width: 290px;
+								margin-top: -110px;
+								margin-left: -50px;"></a>
 							<br>
 							<ul class="link-list">
 								<li><a>Nexen Consulting are primarily categorized into Consulting Services and Tax
@@ -322,7 +375,7 @@
 					</div>
 					<div class="col-lg-3">
 						<div class="widget">
-							<h5 class="widgetheading">Our Contact</h5>
+							<h5 class="widgetheading">Contact</h5>
 							<address>
 								<strong>Nexen Consulting</strong><br>
 								16249 S LONGCOMMON LN PLAINFIELD, IL 60586 US.<br>
@@ -353,7 +406,7 @@
 							</ul>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 			<div id="sub-footer">

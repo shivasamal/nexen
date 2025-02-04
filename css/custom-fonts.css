@@ -66,6 +66,10 @@ you can use the generic selector below, but it's slower:
 .font-icon-wrench:before {
 	content: "\e002";
 }
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .font-icon-waves:before {
 	content: "\e003";
 }
