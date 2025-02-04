@@ -187,6 +187,55 @@ header .nav li .dropdown-menu li a {
    padding: 3px 12px;
 }
 
+
+/*----features ----*/
+#features {
+    background: #fff;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    overflow: hidden;
+}
+
+#features .feature {
+    margin-top: 30px;
+    margin-bottom: 54px;
+}
+
+#features .right {
+    padding-left: 32px;
+    float: right;
+}
+
+#features .left {
+    padding-right: 32px;
+    float: left;
+}
+
+#features h3 {
+    font: 18px/34px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.fluid-video-wrapper {
+    margin-top: 18px;
+}
+
+#features .left {
+    padding-right: 32px;
+    float: left;
+}
+
+#features .right {
+    padding-left: 32px;
+    float: right;
+}
+
+.row .six {
+    width: 50%;
+}
+
 /* --- menu --- */
 
 header .navigation {
