@@ -1410,7 +1410,8 @@ ul.social-network li {
 
 .copyright {
 	text-align:left;
-	font-size:12px;
+	font-size:15px;
+	margin-left: -100px;
 }
 
 #sub-footer ul.social-network {
